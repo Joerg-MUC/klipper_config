@@ -14,7 +14,7 @@
 # Defaults to auto
 #
 #camera="auto"
-
+camera="usb"
 ### Additional options to supply to MJPG Streamer for the USB camera
 #
 # See https://faq.octoprint.org/mjpg-streamer-config for available options
@@ -22,6 +22,7 @@
 # Defaults to a resolution of 640x480 px and a framerate of 10 fps
 #
 #camera_usb_options="-r 640x480 -f 10"
+camera_usb_options "-r 1280x720 -f 15"
 
 ### Additional webcam devices known to cause problems with -f
 #
